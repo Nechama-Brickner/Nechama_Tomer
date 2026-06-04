@@ -53,7 +53,7 @@ CLASS_RANK = {
     "Track": 4,   "Other": 5,       "Bike": 6,  "traffic circle": 7,
 }
 
-TC_CIRCULARITY_THR = 0.70   # isoperimetric quotient threshold for traffic circles
+TC_CIRCULARITY_THR = 0.95   # isoperimetric quotient threshold for traffic circles
 TC_MAX_RADIUS_M    = 50.0   # max bounding-circle radius (m)
 
 MERGE_PREC      = 0.5    # metres — coordinate rounding for vertex matching
